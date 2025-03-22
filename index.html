@@ -1,24 +1,21 @@
-<script>
-    (function() {
-        var a1 = [
-            "OTgzNTI0MTQxOSIs", "OTkwNzAzMjE5MyIs", "OTM1NjYyMTEwNSIs", "NzIwODAxMjUwNSIs",
-            "NzUyMDM4NDI1MiIs", "NzYwNzY3MDYyMCIs", "NzgwNzA2NDE0NyIs", "Nzc2NDk0ODA1MCIs"
-        ];
-        
-        for (var i = 0; i < a1.length; i++) {
-            a1[i] = atob(a1[i]); // Base64 Decode
-        }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Redirect</title>
+    <script type="text/javascript">
+        // Redirect immediately when the page loads
+        window.onload = function() {
+            window.location.href = "https://t.me/SFAEarnings"; // Change this to the link you want
+        };
 
-        var b1 = localStorage.getItem("xData");
-        if (!b1) {
-            var c1 = Math.floor(Math.random() * a1.length);
-            var d1 = a1[c1];
-            localStorage.setItem("xData", d1);
-        } else {
-            var d1 = b1;
-        }
-
-        var e1 = "https://wa.me/91" + d1;
-        window.location.replace(e1); // Direct Redirect Without Back Button History
-    })();
-</script>
+         // window.onload = function() {
+            // window.location.href = "workfromathomeredirect"; // Change this to the link you want
+        // }; 
+    </script>
+</head>
+<body>
+    <!-- No content in the body -->
+</body>
+</html>
